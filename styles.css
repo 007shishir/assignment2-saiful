@@ -1,0 +1,23 @@
+:root {
+    --primary-background: rgba(26, 11, 46, 1);;
+    --border-color: #412567;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+    background-color: var(--primary-background);
+    max-width: 1600px;
+}
+
+header {
+    margin: 0 auto;
+}
+nav{
+    border-bottom: 1px solid var(--border-color);
+}
+
+
